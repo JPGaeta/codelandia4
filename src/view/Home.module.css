@@ -1,10 +1,15 @@
 .rightContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 0 auto;
   max-width: 53rem;
   height: 100vh;
   padding: 10rem 4rem 4rem 4rem;
+}
+
+.leftContainer {
+  display: none;
 }
 
 .body {
@@ -63,13 +68,6 @@ button {
   cursor: pointer;
 }
 
-/* .btn1:hover,
-.btn1:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #12171f, 0 0 0 2px var(--dark);
-  transition: 0.1s;
-} */
-
 .btn2 {
   background: #312e3f;
   transition: ease-in-out 200ms;
@@ -87,10 +85,9 @@ button {
   align-items: center;
   font-family: var(--font-second);
   font-size: 1.4rem;
-  margin-top: auto;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 801px) {
   .gridContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -99,7 +96,7 @@ button {
 
   .rightContainer {
     grid-area: login;
-    margin: 0;
+    align-items: center;
   }
 
   .leftContainer {
