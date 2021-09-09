@@ -5,3 +5,6 @@ São desafios para programar telas com objetivo de treinar a programação front
 ## Como funciona?
 
 É disponibilizado um projeto no Figma, com as cores definidas, fontes e imagens.
+
+## Projeto para visualização
+<a href="https://codelandia4.netlify.app">Site</a> finalizado e hospedado no Netlify.
